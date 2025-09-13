@@ -4,7 +4,7 @@
 
 # Amazon Kinesis Lab
 
-# Trabajo 2 - parte 1 - Logs Agent -> Kinesis Firehose -> S3 -> Glue -> Athena:
+# Logs Agent -> Kinesis Firehose -> S3 -> Glue -> Athena:
 
 1. crear un servicio kinesis firehose por la consola web:
 
