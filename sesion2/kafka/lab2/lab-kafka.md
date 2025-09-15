@@ -1,5 +1,5 @@
 # Universidad EAFIT
-# Curso st1800 Sistemas Intensivos en Datos, 2024-2
+
 # Profesor: Edwin Montoya M. – emontoya@eafit.edu.co
 
 # Laboratorio Apache Kafka / flink en EC2
@@ -14,6 +14,8 @@
 ### 2. RETO: Crear un agente logstream o clickstream hacia kafka  y procesado con flink o spark stream
 
 ## 1. instalar apache kafka en una VM EC2
+
+## revisar y posiblemente actualizar a últimas versiones de apache kafka
 
 Crear una VM linux o en su PC 
 
@@ -89,24 +91,24 @@ CONSUMERS:
 
 1. abrir una consola para consumidor1:
 
-        $ cd st1800-242/streaming/kafka
+        $ cd st1630-252/streaming/kafka/lab2
         $ python3 kafka-consumer-localhost.py
 
 2. abrir una segunda consola para consumidor2:
 
-        $ cd st1800-242/streaming/kafka
+        $ cd st1630-252/streaming/kafka/lab2
         $ python3 kafka-consumer-localhost.py
 
 3. abrir una tercera consola para productor1:
 
-        $ cd st1800-242/streaming/kafka
+        $ cd st1630-252/streaming/kafka/lab2
         $ python3 kafka-producer-localhost.py
 
 enviar algunos mensajes de prueba
 
 4. abrir una cuarta consola para productor2:
 
-        $ cd st1800-242/streaming/kafka
+        $ cd st1630-252/streaming/kafka/lab2
         $ python3 kafka-producer-localhost.py
 
 enviar algunos mensajes de prueba

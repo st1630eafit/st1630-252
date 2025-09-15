@@ -19,8 +19,8 @@ sudo yum install -y aws-kinesis-agent
 
 # clonar el repositorio de la materia:
 
-git clone https://github.com/st1800eafit/st1800-251.git
+git clone https://github.com/st1800eafit/st1630-252.git
 
-cd st1800-251/streaming
+cd st1630-252/streaming
 
-# continuar con la guia de trabajo2-kinesis.md
+# continuar con la guia de kinesis/readme.md
